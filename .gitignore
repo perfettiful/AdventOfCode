@@ -1,0 +1,68 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+.env.*.local
+.eslintcache
+.parcel-cache/
+.next/
+out/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Common ===
+*.log
+*.sqlite3
+*.db
+*.tgz
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# === IDE/Editor ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Coverage/Test Output ===
+coverage/
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.pytest_cache/
+junitxml_report.xml
+nosetests.xml
+test-results.xml
+
+.DS_Store
+
+# === Other ===
+*.zip
+*.tar
+*.gz
+*.bz2
