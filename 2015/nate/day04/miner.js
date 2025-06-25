@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+import crypto from 'crypto';
 
 /**
  * Finds the lowest positive integer that produces an MD5 hash 
@@ -9,7 +9,7 @@ const crypto = require('crypto');
  * @returns {number} The lowest integer that satisfies the condition
  */
 
-function mineAdventCoin(secret, prefix) {
+export function mineAdventCoin(secret, prefix) {
     let n = 1;
 
     while (true) {
@@ -24,8 +24,3 @@ function mineAdventCoin(secret, prefix) {
         n++;
     }
 } 
-
-const secret = 'bgvyzdsv';
-
-console.log('Part 1:', mineAdventCoin(secret, '00000'));
-console.log('Part 2:', mineAdventCoin(secret, '000000'));
