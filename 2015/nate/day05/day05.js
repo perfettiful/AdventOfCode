@@ -127,8 +127,6 @@ function checkDoubleNoOverlap(string){
         for (let j = i+2; j < string.length - 1; j++) {
             const followingPair = string.charAt(j) + string.charAt(j+1)
 
-            // console.log(pair, followingPair)
-
             if(pair === followingPair){
                 return true
             }
